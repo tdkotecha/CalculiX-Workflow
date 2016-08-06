@@ -22,7 +22,7 @@ Its a unconstrained body.
 Only temperature is given at the bottom surface of 25 degree.
 
 Mesh 
-*Meshing is done in Gmsh and Transfinite Funktion is used to do a finer meshing.
+* Meshing is done in Gmsh and Transfinite Funktion is used to do a finer meshing.
 
 Photo(.geo file)
 <img src="Refs/geo.png" width="400" title=".geo file">
@@ -31,7 +31,7 @@ Stress Photo
 <img src="Refs/se.png" width="400" title="von Mises stress">
 
 Set defination 
-*Only one set is defined, which is Support.
+* Only one set is defined, which is Support.
 
 
 
