@@ -27,6 +27,6 @@ Set Defination
 * Both this sets can be checked in CGX with command ,prnt se'.
 
 In the photo below, we can see the sets which are defined in gmsh, in CGX
-<img src="Sets-Plasticity.png" width="400" title="Set Definition">
+<img src="Sets-Plasticity.png" width="600" title="Set Definition">
 
 
