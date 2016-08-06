@@ -12,12 +12,11 @@ Its a unconstrained body.
 6) Create Solve.inp file
 7) Run the analysis.
 
-| File     | Contents       |
-| :------- | :------------- |
-| [Fin.step] (Fin.step) |	STEP geometry exported from Onshape |
-| [Fin.geo] (Fin.geo) |	  Gmsh  control file for meshing and model display |
-| [Fin.fbd] (Fin.fbd) |	  CGX   control file for preprocessing, solving and postprocessing |
-| [solve.inp] (solve.inp) |	CCX input file |
+File	      Contents
+Fin.step	  STEP geometry exported from Onshape
+Fin.geo	Gmsh  control file for meshing and model display
+Fin.fbd	CGX   control file for preprocessing, solving and postprocessing
+solve.inp	  CCX input file
 
 Only temperature is given at the bottom surface of 25 degree.
 

@@ -1,0 +1,30 @@
+*include,input=all.msh
+*Include,input=Support.nam
+*boundary
+NSupport,1,3
+*material, name=Steel
+*DENSITY
+7.8e-9
+*elastic
+210000,0.3
+*expansion
+12e-6
+*conductivity
+50.,0
+*specific heat
+5e8,0
+** material assignment to bodies
+*solid section, elset=Eall, material=Steel
+** contact definitions
+*initial conditions, type=temperature
+Nall, 25.0
+*Physical constants, absolute zero = -273.15
+*step
+*static
+*temperature
+Nsupport,50
+*node file
+U
+*el file
+S
+*end step
