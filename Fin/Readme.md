@@ -30,7 +30,7 @@ Photo(.geo file)
 
 Stress Photo
 /home/user/Calculix files/calculiX-Beispielen/Fin/Refs/se.png
-<img src="RRefs/se.png" width="400" title="von Mises stress">
+<img src="Refs/se.png" width="400" title="von Mises stress">
 Set defination 
 Only one set is defined, which is Support.
 
