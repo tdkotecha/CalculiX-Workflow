@@ -210,6 +210,8 @@ b) run.fbd
 
 c) solve.inp
 
+| Commands      | Discription       |
+| :------- | :------------- |
 | *include,input=all.msh             | Netz und Support File Link |
 | *include,input=Support.nam
 | ** symmetry at bottom
@@ -232,12 +234,12 @@ c) solve.inp
 
 Der Vorgang
 
-| Gmsh plate.geo      | <img src="Refs/sets.png" width="400" title="Sets for boundary application">
-| Cgx -b run.fbd
-| 1. Boundary Conditions
-| 2. Von-misses Stress
-| 3. Dispalcement
-| Cgx solve.frd
+| Gmsh plate.geo      | <img src="Refs/1.png" width="300" title=".geo File"> |
+| Cgx -b run.fbd   |   
+  1. Boundary Conditions | <img src="Refs/2.png" width="300" title="Boundary Conditions"> |
+  2. Von-misses Stress   |  <img src="Refs/3.png" width="300" title="Von Mises Stress"> |
+  3. Dispalcement  |  <img src="Refs/4.png" width="300" title="Displacement"> |
+| Cgx solve.frd |  <img src="Refs/5.png" width="300" title="Solutiont"> |
 
 
 3.1.2 Das Problem:
