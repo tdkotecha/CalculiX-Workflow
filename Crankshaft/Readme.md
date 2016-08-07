@@ -33,5 +33,5 @@ For example, In this Analysis, there are two sets defined in Gmsh, that are Supp
 Both this sets can be checked in CGX with command ,prnt se'.
 
 In the photo below, we can see the sets which are defined in gmsh, in CGX
-<img src="Refs/sets-Crankshaft.png" width="400" title="Sets for boundary application">
+<img src="Refs/Sets-Crankshaft.png" width="400" title="Sets for boundary application">
 
