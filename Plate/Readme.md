@@ -11,19 +11,24 @@ The photo of hcpy_1 shows the boundry condition.
 file:///home/user/Calculix%20files/calculiX-Beispielen/Plate/Refs/sets.png
 
 -Meshing photo(.geo file)
-/home/user/Calculix files/calculiX-Beispielen/Plate/Refs/hcpy_3.png
+
+<img src="Refs/hcpy_3.png" width="400" title="Meshing">
 
 -Displacement Photo
-/home/user/Calculix files/calculiX-Beispielen/Plate/Refs/se.png
+
+<img src="Refs/se.png" width="400" title="Displacement">
 
 * Set Defination
 
 -The Sets which are defined in Gmsh can be seen in CGX
 
 -For example, In this Analysis, there are two sets defined in Gmsh, that are Support and Pressure. You can check this Sets in .geo file.
+
  Both this sets can be checked in CGX with command 
+ ```
  > ,prnt se'.
- 
+ ```
 
 -In the photo below, we can see the sets which are defined in gmsh, in CGX
-/home/user/Calculix files/calculiX-Beispielen/Plate/Refs/Sets-Modal.png
+
+<img src="Sets-Modal.png" width="400" title="Sets">
