@@ -234,6 +234,8 @@ c) solve.inp
 
 Der Vorgang
 
+| Commands      | Discription       |
+| :------- | :------------- |
 | Gmsh plate.geo      | <img src="Refs/1.png" width="300" title=".geo File"> |
 | Cgx -b run.fbd   |   
   1. Boundary Conditions | <img src="Refs/2.png" width="300" title="Boundary Conditions"> |
