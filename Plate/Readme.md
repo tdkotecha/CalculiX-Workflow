@@ -13,7 +13,7 @@ The photo of hcpy_1 shows the boundry condition.
 
 -Meshing photo(.geo file)
 
-<img src="Refs/hcpy_3.png" width="400" title="Meshing">
+<img src="Refs/gmshVT.png" width="400" title="Meshing">
 
 -Displacement Photo
 
