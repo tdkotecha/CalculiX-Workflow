@@ -1,13 +1,13 @@
 # Buckling and transient analysis of Boiler Surface
 
-First I have shown workflow of CalculiX with Gmsh.
+First I have shown workflow of CalculiX with Gmsh and then i have done the analysis
 
 * Set definition in Gmsh
 
 We can define sets as physical surfaces/lines/volume/points in Gmsh.
 
 The following photo shows, how can this physical sets be defined in Gmsh.
-<img src="Refs/11.png" width="800" title="Set Definition">
+<img src="Refs/Plasticity 11.png" width="800" title="Set Definition">
 
 
 * Sets in CGX
