@@ -1,40 +1,41 @@
 INHALTSVERZEICHNIS
-1.CalculiX Einleitung:……………………………………………………...2
-2.Installation:……………………………………………………………….2
-2.1). Oracle Virtual Box und Virtual Maschine bei
-Sven kaßbohm…………………………………………………..3
-2.1.1)Das Problem und die Losungen:………………………….3
-2.2). Bconverged Version (CalculiX 2.10)……………………………4
-2.3). General Electronics Version(Von Github
-Website)…………………………………………………………4
-3. Wie importieren wir CAD Geometrie in CalculiX………………………5
-3.1 GMSH……………………………………………………………...5
-3.1.1 Beispiel 1 (Plate)
-3.1.2 Das Problem:………………………………………………11
-3.1.3 Beispiel 2 (Kurbelwelle)…………………………………..12
-3.2 Salome…………………………………………………………….13
-3.3 Netgen…………………………………………………..………...15
-3.4 Mecway…………………………………………………………...15
-4. Videos:…………………………………………………………………..17
-1. EINLEITUNG:
-CalculiX ist eine Open Source Software für Finite Element Analysis ( FEM). Es
+* 1.CalculiX Einleitung:……………………………………………………...2
+* 2.Installation:……………………………………………………………….2
+* 2.1). Oracle Virtual Box und Virtual Maschine bei
+         Sven kaßbohm…………………………………………………..3
+*     2.1.1)Das Problem und die Losungen:………………………….3
+* 2.2). Bconverged Version (CalculiX 2.10)……………………………4
+* 2.3). General Electronics Version(Von Github
+        Website)…………………………………………………………4
+* 3. Wie importieren wir CAD Geometrie in CalculiX………………………5
+* 3.1 GMSH……………………………………………………………...5
+*      3.1.1 Beispiel 1 (Plate)
+*      3.1.2 Das Problem:………………………………………………11
+*      3.1.3 Beispiel 2 (Kurbelwelle)…………………………………..12
+* 3.2 Salome…………………………………………………………….13
+* 3.3 Netgen…………………………………………………..………...15
+* 3.4 Mecway…………………………………………………………...15
+* 4. Videos:…………………………………………………………………..17
+
+* 1. EINLEITUNG:
+'CalculiX ist eine Open Source Software für Finite Element Analysis ( FEM). Es
 wird von Guido Dhondt und Klaus Wittig, Mitarbeiter der Firma MTU Auero-
 Engines, entwickelt, um dreidimensionale Strukturberechnungen
 durchzuführen. Es nutzt dabei das Abaqus- Eingabeformat für den
-Gleichungslösen.
-2. INSTALLATION
-a) Wie wird die aktuelle Version von CalculiX in Windows PC installiert?
- Die aktuelle Version von CalculiX ist 2.10. Diese Version funktioniert
+Gleichungslösen.'
+* 2. INSTALLATION
+'a) Wie wird die aktuelle Version von CalculiX in Windows PC installiert?
+* Die aktuelle Version von CalculiX ist 2.10. Diese Version funktioniert
 nur im Linux. Es wird von der Website http://www.dhondt.de/
 heruntergeladen. Auf der Website werden der Quellcode und „Linux-
-Executables“ angeboten.
+Executables“ angeboten.'
  Für Windows kann die Version ,, CalculiX 2.8‘‘ von Bconverged Website
 herunterladen werden.
  Um die aktuelle Version in Windows zu installieren, gibt es drei
 Möglichkeiten:
-1). Oracle Virtual Box und Virtual Maschine bei Sven kaßbohm.
-2). Bconverged Version (CalculiX 2.8)
-3). Von Github Website,
+* 1). Oracle Virtual Box und Virtual Maschine bei Sven kaßbohm.
+* 2). Bconverged Version (CalculiX 2.8)
+* 3). Von Github Website,
 2.1 ORACLE VIRTUAL BOX UND VIRTUAL MASCHINE BEI SVEN
 KAßBOHM:
  Es gibt ein Programm ,,ORACLE Virtual Box (VB)‘‘, mit dem beide
