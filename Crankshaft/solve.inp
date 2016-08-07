@@ -1,0 +1,23 @@
+*include,input=all.msh
+*include,input=Support.nam
+** symmetry at bottom
+*boundary
+NSupport,1,3
+** material definition
+*Material, name=steel,
+*elastic
+210000,0.3,0
+*density
+8.075e9
+
+*Solid Section, Material=steel, ELSET=EALL
+*STEP
+*Static
+
+*dload
+*include,input=Pressure.dlo
+*el file
+S
+*node file
+U
+*end step

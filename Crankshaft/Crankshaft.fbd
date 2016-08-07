@@ -1,0 +1,48 @@
+# sys gmsh part.step -clcurv -3 -o gmsh.inp -order 2
+# Reading the Gmsh .geo file and .inp file
+sys gmsh Crankshaft.geo
+read Crankshaft.inp
+
+# Support
+comp Pressure do
+comp Support do
+# remove all surface elements
+seta tozap e all
+setr tozap e +C3D10
+zap tozap
+del se0
+
+# Set Defination
+send all abq
+send Support abq nam
+comp Pressure do
+send Pressure abq pres 1000
+
+# Representation of the set, defined in gmsh and saving the Image
+plot f pres
+plus n Support
+hcpy png
+sys mv hcpy_1.png Refs/sets.png
+
+# Command for solving in CCX
+sys ccx solve
+read solve.frd
+
+# Create the plot for displacement and saving the Image
+rot y
+rot c 0
+rot r 0
+rot u 30
+zoom 2
+view disp
+scal d 1
+view elem
+ds -0 e 7
+plot fv all
+hcpy png
+sys mv hcpy_2.png Refs/se.png
+rot y
+rot u 30
+plot f all n
+hcpy png
+sys mv hcpy_3.png Refs/disp.png

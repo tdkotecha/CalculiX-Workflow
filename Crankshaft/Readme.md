@@ -1,5 +1,4 @@
 Static Analysis on Crankshaft
-
 The Basic intention was to do meshing of a complicated geometry in GMSH and see if it can be then used for analysis in CalculiX.
 
 This analysis was done to check the stress on the crankshaft.
@@ -31,4 +30,5 @@ Both this sets can be checked in CGX with command ,prnt se'.
 
 In the photo below, we can see the sets which are defined in gmsh, in CGX
 /home/user/Calculix files/calculiX-Beispielen/Crankshaft/Refs/Sets-Crankshaft.png
+
 
