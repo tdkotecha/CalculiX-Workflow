@@ -282,8 +282,8 @@ verwendbarer Komponenten
 | :------- | :------------- |
 | .Step File in salome geöffnet | <img src="Refs/17.png" width="300" title=" Geometrie in Salome"> |
 | Netz in Salome. | <img src="Refs/18.png" width="300" title="Vernetzt"> |
-| Veränderung von .UNV File zu .inp(CalculiX Input) File mit CalculiX Launcher. | <img src="Refs/16.png" width="300" title=" UNV File Converter"> |
-| Das Ergebnisse. | <img src="Refs/19.png" width="300" title=" Solution"> |
+| Veränderung von .UNV File zu .inp(CalculiX Input) File mit CalculiX Launcher. | <img src="Refs/19.png" width="300" title=" UNV File Converter"> |
+| Das Ergebnisse. | <img src="Refs/20.png" width="300" title=" Solution"> |
 
 Es wird zuerst die CAD File in Salome Software importiert. Danach machen
 wir Netz und speichern wir .UNV File Von .UNV Format bis .inp Format in
@@ -313,68 +313,16 @@ deswegen können wir die komplexe Geometrie nicht analysieren.
 
 # 4) Videos
 | Video  | Link Blick  | Information | 
-| :------- | :------------- |
-| https://www.youtube.com/watch?v=zDIUZluXTko | 
-Gmsh + calculix
-Es zeigt, wie eine Step
-File in GMSH importiert
-wird, wie Netz in
-GMSH eingebaut wird
-und wie diese File in
-CalculiX berechnen wird
-https://www.youtube.co
-m/watch?
-v=IdB2nfdAWv0
-Static Analysis mit zwei
-verschiedene Material
-Die Geometrie(Beam)
-wird in GMSH gemacht,
-danach wird in CalculiX
-berechnet.
-https://www.youtube.co
-m/watch?
-v=maYdahDqzHw
-Die Geometrie ist in
-GMSH eingebaut,
-danach berechnet in
-CalculiX.
-https://www.youtube.co
-m/watch?
-v=lNGrqhed9Io
-Salome + CalculiX
-Es zeigt, wie eine CAD
-importierte Geometrie in
-Salome Netz gemacht
-wird, wie es in eine .inp
-File umgetauscht wird.
-https://www.youtube.co
-m/watch?v=ERuHkWkH1o
-Eine komplexe
-Geometrie wird in
-Salome Netz gemacht,
-danach wird im
-CalculiX berechnet.
-https://www.youtube.co
-m/watch?
-v=BEjfK5LNLhU
-Die verschiedene
-Beispiel wird in Salome
-Netz gemacht und in
-CalculiX berechnet.
-(Surface, Multibody mit
-unterschiedlich Material)
-https://www.youtube.co
-m/watch?
-v=7JzNsp6UKmI
-FreeCad + Netgen +
-CalculiX.
-Es Zeigt, wie eine
-Geometrie in Freecad
-eingebaut ist, wie Netz
-in Netgen gemacht ist
-und wie diese File in
-CalculiX berechnen
-wird.
+| :------- | :------------- | :------- |
+| https://www.youtube.com/watch?v=zDIUZluXTko | <img src="Refs/21.png" width="300" title=" Solution"> | Gmsh + calculix Es zeigt, wie eine Step File in GMSH importiert wird, wie Netz inGMSH eingebaut wird und wie diese File in CalculiX berechnen wird |
+| https://www.youtube.com/watch?v=IdB2nfdAWv0 | <img src="Refs/22.png" width="300" title=" Solution"> | Static Analysis mit zwei verschiedene Material Die Geometrie(Beam) wird in GMSH gemacht, danach wird in CalculiX berechnet. |
+| https://www.youtube.com/watch?v=maYdahDqzHw | <img src="Refs/23.png" width="300" title=" Solution"> | Die Geometrie ist in GMSH eingebaut, danach berechnet in CalculiX. |
+| https://www.youtube.com/watch?v=lNGrqhed9Io | <img src="Refs/24.png" width="300" title=" Solution"> | Salome + CalculiX Es zeigt, wie eine CAD importierte Geometrie in Salome Netz gemacht wird, wie es in eine .inp File umgetauscht wird. |
+| https://www.youtube.com/watch?v=ERuHkWkH1o | <img src="Refs/25.png" width="300" title=" Solution"> | Eine komplexe Geometrie wird in Salome Netz gemacht, danach wird im CalculiX berechnet. |
+| https://www.youtube.com/watch?v=BEjfK5LNLhU | <img src="Refs/26.png" width="300" title=" Solution"> | Die verschiedene Beispiel wird in Salome Netz gemacht und in CalculiX berechnet.(Surface, Multibody mit unterschiedlich Material) |
+| https://www.youtube.com/watch?v=7JzNsp6UKmI | <img src="Refs/27.png" width="300" title=" Solution"> | FreeCad + Netgen + CalculiX.Es Zeigt, wie eine Geometrie in Freecad eingebaut ist, wie Netz in Netgen gemacht ist und wie diese File in CalculiX berechnen wird. |
+
+
 PDF Link: http://sourceforge.mirrorservice.org/l/li/libremechanics/Analysis
 %20and%20Simulations/Advance%20CalculiX%20Tutorial/Advanced
 %20CalculiX%20Tutorial.pdf – Advanced CalculiX Tutorial
