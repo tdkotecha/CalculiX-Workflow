@@ -31,4 +31,4 @@ file:///home/user/Calculix%20files/calculiX-Beispielen/Plate/Refs/sets.png
 
 -In the photo below, we can see the sets which are defined in gmsh, in CGX
 
-<img src="Sets-Modal.png" width="400" title="Sets">
+<img src="Refs/Sets-Modal.png" width="400" title="Sets">
