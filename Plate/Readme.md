@@ -8,7 +8,8 @@ The Outer round Surface(Width) is Fixed and pressure of 1N is aplied on the top 
 The photo of hcpy_1 shows the boundry condition.
 
 -Set Defination Photo
-file:///home/user/Calculix%20files/calculiX-Beispielen/Plate/Refs/sets.png
+
+<img src="Refs/sets.png" width="400" title="Boundary conditions">
 
 -Meshing photo(.geo file)
 
