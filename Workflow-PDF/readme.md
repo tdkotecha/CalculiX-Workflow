@@ -168,55 +168,45 @@ ________________________________________________________________________________
 
 b) run.fbd
 
-| #sys gmsh part3.STEP -clcurv -3; plate7.inp -order 2;
-sys gmsh plate.geo
-read plate.inp
-.geo File und .inp File Link
-Reading the Gmsh .geo file and .inp
-file
-# Support
-comp Load do
-comp Support do
-# remove all surface elements
-seta tozap e all
-setr tozap e +C3D10
-zap tozap
-del se0
-Support und Load
-Removing surface element
-send all abq
-send Support abq nam
-comp Load do
-send Load abq pres 1
-Die all.msh File und Load.dlo File wird
-von diesem Command hergestellt.
-plot f Load
-plus n Support
-hcpy png
-sys mv hcpy_1.png Refs/sets.png
-Representation of the set, defined in gmsh
-and saving the Image
-sys ccx solve
-read solve.frd
-Solve File mit CCX solve.
-rot y
-rot c 30
-rot r 30
-Display options
-Create the plot for deformed Surface and
-saving the Image
-view disp
-scal d 1000
-view elem
-ds -0 e 7
-plot fv all
-hcpy png
-sys mv hcpy_2.png Refs/se.png
-rot y
-rot u 30
-plot f all n
-hcpy png
-sys mv hcpy_3.png Refs/disp.png
+| #sys gmsh part3.STEP -clcurv -3; 
+| plate7.inp -order 2;
+| sys gmsh plate.geo
+| read plate.inp      | .geo File und .inp File Link Reading the Gmsh .geo file and .inp file |
+| #Support          | Support und Load |
+| comp Load do
+| comp Support do
+| # remove all surface elements | Removing Surface Element |
+| seta tozap e all
+| set11r tozap e +C3D10
+| zap tozap
+| del se0        
+| send all abq              | Die all.msh File und Load.dlo File wird von diesem Command hergestellt. |
+| send Support abq nam
+| comp Load do
+| send Load abq pres 1
+| plot f Load            | Representation of the set, defined in gmsh and saving the Image |
+| plus n Support
+| hcpy png
+| sys mv hcpy_1.png Refs/sets.png
+| sys ccx solve
+| read solve.frd  |  Solve File mit CCX solve. |
+| rot y         | Display options
+| rot c 30      | Create the plot for deformed Surface and
+| rot r 30      | saving the Image
+| view disp
+| scal d 1000
+| view elem
+| ds -0 e 7
+| plot fv all
+| hcpy png
+| sys mv hcpy_2.png Refs/se.png
+| rot y
+| rot u 30
+| plot f all n
+| hcpy png
+| sys mv hcpy_3.png Refs/disp.png |
+
+
 c) solve.inp
 *include,input=all.msh
 *include,input=Support.nam
