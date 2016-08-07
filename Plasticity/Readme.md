@@ -16,7 +16,7 @@ Meshing
 
 Photo(.geo file)
 /home/user/Calculix files/calculiX-Beispielen/Plasticity /Refs/geo.png
-<img src="Refs/geo.png" width="400" title=".geo file">
+<img src="Refs/gmshVT.png" width="400" title=".geo file">
 
 Displacement photo
 /home/user/Calculix files/calculiX-Beispielen/Plasticity /Refs/se.png
