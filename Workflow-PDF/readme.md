@@ -12,7 +12,7 @@ INHALTSVERZEICHNIS
     2.3). General Electronics Version(Von Github
         Website)
         
-* 3. Wie importieren wir CAD Geometrie in CalculiX
+* 3.Wie importieren wir CAD Geometrie in CalculiX
     
      3.1 GMSH
 
@@ -54,11 +54,11 @@ herunterladen werden.
 *  Um die aktuelle Version in Windows zu installieren, gibt es drei
 Möglichkeiten:
 
-* 1). Oracle Virtual Box und Virtual Maschine bei Sven kaßbohm.
+ 1). Oracle Virtual Box und Virtual Maschine bei Sven kaßbohm.
 
-* 2). Bconverged Version (CalculiX 2.8)
+ 2). Bconverged Version (CalculiX 2.8)
 
-* 3). Von Github Website
+ 3). Von Github Website
 
 ** 2.1 ORACLE VIRTUAL BOX UND VIRTUAL MASCHINE BEI SVEN
 KAßBOHM:
@@ -327,13 +327,13 @@ deswegen können wir die komplexe Geometrie nicht analysieren.
 # 4) Videos
 | Video  | Link Blick  | Information | 
 | :------- | :------------- | :------- |
-| https://www.youtube.com/watch?v=zDIUZluXTko | <img src="Refs/21.png" width="300" title=" Solution"> | Gmsh + calculix Es zeigt, wie eine Step File in GMSH importiert wird, wie Netz inGMSH eingebaut wird und wie diese File in CalculiX berechnen wird |
+| https://www.youtube.com/watch?v=zDIUZluXTko | <img src="Refs/21.png" width="300" title=" Solution"> | Gmsh + calculix - Es zeigt, wie eine Step File in GMSH importiert wird, wie Netz inGMSH eingebaut wird und wie diese File in CalculiX berechnen wird |
 | https://www.youtube.com/watch?v=IdB2nfdAWv0 | <img src="Refs/22.png" width="300" title=" Solution"> | Static Analysis mit zwei verschiedene Material Die Geometrie(Beam) wird in GMSH gemacht, danach wird in CalculiX berechnet. |
 | https://www.youtube.com/watch?v=maYdahDqzHw | <img src="Refs/23.png" width="300" title=" Solution"> | Die Geometrie ist in GMSH eingebaut, danach berechnet in CalculiX. |
-| https://www.youtube.com/watch?v=lNGrqhed9Io | <img src="Refs/24.png" width="300" title=" Solution"> | Salome + CalculiX Es zeigt, wie eine CAD importierte Geometrie in Salome Netz gemacht wird, wie es in eine .inp File umgetauscht wird. |
+| https://www.youtube.com/watch?v=lNGrqhed9Io | <img src="Refs/24.png" width="300" title=" Solution"> | Salome + CalculiX - Es zeigt, wie eine CAD importierte Geometrie in Salome Netz gemacht wird, wie es in eine .inp File umgetauscht wird. |
 | https://www.youtube.com/watch?v=ERuHkWkH1o | <img src="Refs/25.png" width="300" title=" Solution"> | Eine komplexe Geometrie wird in Salome Netz gemacht, danach wird im CalculiX berechnet. |
 | https://www.youtube.com/watch?v=BEjfK5LNLhU | <img src="Refs/26.png" width="300" title=" Solution"> | Die verschiedene Beispiel wird in Salome Netz gemacht und in CalculiX berechnet.(Surface, Multibody mit unterschiedlich Material) |
-| https://www.youtube.com/watch?v=7JzNsp6UKmI | <img src="Refs/27.png" width="300" title=" Solution"> | FreeCad + Netgen + CalculiX.Es Zeigt, wie eine Geometrie in Freecad eingebaut ist, wie Netz in Netgen gemacht ist und wie diese File in CalculiX berechnen wird. |
+| https://www.youtube.com/watch?v=7JzNsp6UKmI | <img src="Refs/27.png" width="300" title=" Solution"> | FreeCad + Netgen + CalculiX. - Es Zeigt, wie eine Geometrie in Freecad eingebaut ist, wie Netz in Netgen gemacht ist und wie diese File in CalculiX berechnen wird. |
 
 
 PDF Link: http://sourceforge.mirrorservice.org/l/li/libremechanics/Analysis
