@@ -25,6 +25,8 @@ Mesh
 * Meshing is done in Gmsh and Transfinite Funktion is used to do a finer meshing.
 
 Photo(.geo file)
+<img src="Refs/gmshVT.png" width="400" title=".geo file">
+
 <img src="Refs/geo.png" width="400" title=".geo file">
 
 Stress Photo
