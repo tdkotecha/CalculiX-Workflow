@@ -1,21 +1,34 @@
 INHALTSVERZEICHNIS
-* 1.CalculiX Einleitung:……………………………………………………...2
-* 2.Installation:……………………………………………………………….2
-* 2.1). Oracle Virtual Box und Virtual Maschine bei
-         Sven kaßbohm…………………………………………………..3
-*     2.1.1)Das Problem und die Losungen:………………………….3
-* 2.2). Bconverged Version (CalculiX 2.10)……………………………4
-* 2.3). General Electronics Version(Von Github
-        Website)…………………………………………………………4
-* 3. Wie importieren wir CAD Geometrie in CalculiX………………………5
-* 3.1 GMSH……………………………………………………………...5
-*      3.1.1 Beispiel 1 (Plate)
-*      3.1.2 Das Problem:………………………………………………11
-*      3.1.3 Beispiel 2 (Kurbelwelle)…………………………………..12
-* 3.2 Salome…………………………………………………………….13
-* 3.3 Netgen…………………………………………………..………...15
-* 3.4 Mecway…………………………………………………………...15
-* 4.Videos:…………………………………………………………………..17
+* 1.CalculiX Einleitung:
+* 2.Installation:
+
+   2.1). Oracle Virtual Box und Virtual Maschine bei
+         Sven kaßbohm
+        
+         2.1.1)Das Problem und die Losungen:
+   
+    2.2). Bconverged Version (CalculiX 2.10)
+    
+    2.3). General Electronics Version(Von Github
+        Website)
+        
+* 3. Wie importieren wir CAD Geometrie in CalculiX
+    
+     3.1 GMSH
+
+        3.1.1 Beispiel 1 (Plate)
+        
+        3.1.2 Das Problem:
+        
+        3.1.3 Beispiel 2 (Kurbelwelle)
+        
+     3.2 Salome
+     
+     3.3 Netgen
+     
+     3.4 Mecway
+     
+* 4.Videos:
 
 ____________________________________________________________________________________________________________________________________
 # 1. EINLEITUNG:
