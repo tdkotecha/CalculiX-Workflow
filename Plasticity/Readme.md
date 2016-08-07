@@ -38,11 +38,11 @@ Meshing
 * Meshing is done in Gmsh and Transfinite Function is used to do a finer meshing.
 
 Photo(.geo file)
-/home/user/Calculix files/calculiX-Beispielen/Plasticity /Refs/geo.png
+
 <img src="Refs/gmshVT.png" width="400" title=".geo file">
 
 Displacement photo
-/home/user/Calculix files/calculiX-Beispielen/Plasticity /Refs/se.png
+
 <img src="Refs/se.png" width="400" title="Displacement">
 
 
