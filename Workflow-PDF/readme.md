@@ -170,8 +170,7 @@ b) run.fbd
 
 | Commands      | Discription       |
 | :------- | :------------- |
-| #sys gmsh part3.STEP -clcurv -3; |
-| plate7.inp -order 2; |
+| #sys gmsh part3.STEP -clcurv -3; plate7.inp -order 2; |
 | sys gmsh plate.geo |
 | read plate.inp      | .geo File und .inp File Link Reading the Gmsh .geo file and .inp file |
 | #Support          | Support und Load |
@@ -210,38 +209,37 @@ b) run.fbd
 
 
 c) solve.inp
-*include,input=all.msh
-*include,input=Support.nam
-Netz und Support File Link
-** symmetry at bottom
-*boundary
-NSupport,1,3
-Randbedingungen
-** material definition
-*Material, name=steel,
-*elastic
-210000,0.3,0
-*Solid Section, Material=steel,
-ELSET=EALL
-Material Defination
-*STEP
-*STATIC
-*dload
-*include,input=Load.dlo
-Load File
-*el file
-S
-*node file
-U
-*end step
-End step
+
+| *include,input=all.msh             | Netz und Support File Link |
+| *include,input=Support.nam
+| ** symmetry at bottom
+| *boundary                  | Randbedingungen |
+| NSupport,1,3
+| ** material definition
+| *Material, name=steel,           | Material Defination
+| *elastic
+| 210000,0.3,0
+| *Solid Section, Material=steel,ELSET=EALL
+| *STEP
+| *STATIC
+| *dload                             
+| *include,input=Load.dlo                 | Load File
+| *el file
+| S
+| *node file                            | End step
+| U
+| *end step            |
+
 Der Vorgang
-Gmsh plate.geo
-Cgx -b run.fbd
-1. Boundary Conditions
-2. Von-misses Stress
-3. Dispalcement
-Cgx solve.frd
+
+| Gmsh plate.geo      | <img src="Refs/sets.png" width="400" title="Sets for boundary application">
+| Cgx -b run.fbd
+| 1. Boundary Conditions
+| 2. Von-misses Stress
+| 3. Dispalcement
+| Cgx solve.frd
+
+
 3.1.2 Das Problem:
 Wenn eine CAD File in GMSH importiert ist, gibt es Problem mit Netz.
 Diese Problem habe ich in folgender Bilder gezeigt.
