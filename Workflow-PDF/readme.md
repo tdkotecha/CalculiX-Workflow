@@ -149,11 +149,14 @@ Ein Geometrie ist in Solidworks eingebaut und als STEP File eingespeichert.
 a) plate.geo:
 
 In diese Script machen wir Netz und plate.inp File.
+
 | :------- | :------------- |
 | Merge "part3.STEP"; | Step file von CAD. |
 | Mesh.ElementOrder=2; Mesh.Optimize=1;     | // Netz kontrolle |
 | //Mesh.SurfaceEdges = 1; Mesh.SurfaceFaces = 1; Mesh.VolumeEdges = 0; //Mesh.VolumeFaces = 0; Mesh.LabelType = 1; Mesh.SurfaceNumbers = 1; Mesh 3; | // Display kontrolle |
 |Physical Surface("Support")={5,15}; Physical Surface("Load")={10}; Physical Volume("Part")={1}; | Support und Load |
+
+
 Merge "part3.STEP"; Step file von CAD .
 Mesh.ElementOrder=2;
 Mesh.Optimize=1;
