@@ -15,7 +15,7 @@ INHALTSVERZEICHNIS
 * 3.2 Salome…………………………………………………………….13
 * 3.3 Netgen…………………………………………………..………...15
 * 3.4 Mecway…………………………………………………………...15
-* 4. Videos:…………………………………………………………………..17
+* 4.Videos:…………………………………………………………………..17
 
 * 1. EINLEITUNG:
 
@@ -131,12 +131,17 @@ vernetzt habe.
 ● Wir können unsere Vorgang in drei Script verteilen.
 
 a) plate.geo
+
 b) run.fbd
+
 c) solve.inp
 
 Ein Geometrie ist in Solidworks eingebaut und als STEP File eingespeichert.
+
 a) plate.geo:
+
 In diese Script machen wir Netz und plate.inp File.
+
 Merge "part3.STEP"; Step file von CAD .
 Mesh.ElementOrder=2;
 Mesh.Optimize=1;
