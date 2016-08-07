@@ -35,7 +35,7 @@ Photo
 <img src="Refs/sets.png" width="400" title="Sets for boundary application">
 
 Meshing
-* Meshing is done in Gmsh and Transfinite Funktion is used to do a finer meshing.
+* Meshing is done in Gmsh and Transfinite Function is used to do a finer meshing.
 
 Photo(.geo file)
 /home/user/Calculix files/calculiX-Beispielen/Plasticity /Refs/geo.png
