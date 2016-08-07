@@ -23,7 +23,7 @@ The results are then checked.
 Meshing was done in Gmsh.(Without using any Functions.) 
 
 Photo(.geo file)
-<img src="Refs/gmsVT.png" width="400" title="Sets for boundary application">
+<img src="Refs/gmshVT.png" width="400" title="Sets for boundary application">
 
 * Stress Photo
 /home/user/Calculix files/calculiX-Beispielen/Crankshaft/Refs/se.png
@@ -33,5 +33,5 @@ For example, In this Analysis, there are two sets defined in Gmsh, that are Supp
 Both this sets can be checked in CGX with command ,prnt se'.
 
 In the photo below, we can see the sets which are defined in gmsh, in CGX
-<img src="Refs/sets-crankshaft.png" width="400" title="Sets for boundary application">
+<img src="Refs/sets-Crankshaft.png" width="400" title="Sets for boundary application">
 
