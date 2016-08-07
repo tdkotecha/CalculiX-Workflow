@@ -174,7 +174,9 @@ In diese Script machen wir Netz und plate.inp File.
 |  Mesh.LabelType = 1; 
 |  Mesh.SurfaceNumbers = 1; 
 |  Mesh 3; | // Display kontrolle |
-| Physical Surface("Support")={5,15}; Physical Surface("Load")={10}; Physical Volume("Part")={1}; | Support und Load |
+| Physical Surface("Support")={5,15}; 
+| Physical Surface("Load")={10}; 
+| Physical Volume("Part")={1}; | Support und Load |
 | Save "plate.inp"; | .inp File |
 
 ______________________________________________________________________________________________________________________________________
@@ -262,7 +264,7 @@ Der Vorgang
 Wenn eine CAD File in GMSH importiert ist, gibt es Problem mit Netz.
 Diese Problem habe ich in folgender Bilder gezeigt.
 
-| Commands      | Discription       |
+| Details      | Photo      |
 | :------- | :------------- |
 | - Es gibt Problem mit einige CAD Geometrie, die als .step importiert wird. Wenn es Netz gemacht wird, steht es ganz kaputt. | <img src="Refs/6.png" width="300" title="Problem"> |
 | - Es ist in zweiter Bild gezeigt, dass die knoten mit einander falsche verbunden sind. | <img src="Refs/7.png" width="300" title="Problem1"> |
@@ -291,7 +293,7 @@ für Pre- und Post-Processing für die numerische Simulation zur Verfügung
 stellt. Es basiert auf einer offenen und flexible Architektur wieder
 verwendbarer Komponenten
 
-| Commands      | Discription       |
+| Details    | Photo       |
 | :------- | :------------- |
 | .Step File in salome geöffnet | <img src="Refs/17.png" width="300" title=" Geometrie in Salome"> |
 | Netz in Salome. | <img src="Refs/18.png" width="300" title="Vernetzt"> |
@@ -327,13 +329,13 @@ deswegen können wir die komplexe Geometrie nicht analysieren.
 # 4) Videos
 | Video  | Link Blick  | Information | 
 | :------- | :------------- | :------- |
-| https://www.youtube.com/watch?v=zDIUZluXTko | <img src="Refs/21.png" width="300" title=" Solution"> | Gmsh + calculix - Es zeigt, wie eine Step File in GMSH importiert wird, wie Netz inGMSH eingebaut wird und wie diese File in CalculiX berechnen wird |
-| https://www.youtube.com/watch?v=IdB2nfdAWv0 | <img src="Refs/22.png" width="300" title=" Solution"> | Static Analysis mit zwei verschiedene Material Die Geometrie(Beam) wird in GMSH gemacht, danach wird in CalculiX berechnet. |
-| https://www.youtube.com/watch?v=maYdahDqzHw | <img src="Refs/23.png" width="300" title=" Solution"> | Die Geometrie ist in GMSH eingebaut, danach berechnet in CalculiX. |
-| https://www.youtube.com/watch?v=lNGrqhed9Io | <img src="Refs/24.png" width="300" title=" Solution"> | Salome + CalculiX - Es zeigt, wie eine CAD importierte Geometrie in Salome Netz gemacht wird, wie es in eine .inp File umgetauscht wird. |
-| https://www.youtube.com/watch?v=ERuHkWkH1o | <img src="Refs/25.png" width="300" title=" Solution"> | Eine komplexe Geometrie wird in Salome Netz gemacht, danach wird im CalculiX berechnet. |
-| https://www.youtube.com/watch?v=BEjfK5LNLhU | <img src="Refs/26.png" width="300" title=" Solution"> | Die verschiedene Beispiel wird in Salome Netz gemacht und in CalculiX berechnet.(Surface, Multibody mit unterschiedlich Material) |
-| https://www.youtube.com/watch?v=7JzNsp6UKmI | <img src="Refs/27.png" width="300" title=" Solution"> | FreeCad + Netgen + CalculiX. - Es Zeigt, wie eine Geometrie in Freecad eingebaut ist, wie Netz in Netgen gemacht ist und wie diese File in CalculiX berechnen wird. |
+| https://www.youtube.com/watch?v=zDIUZluXTko | <img src="Refs/21.png" width="200" title=" Solution"> | Gmsh + calculix - Es zeigt, wie eine Step File in GMSH importiert wird, wie Netz inGMSH eingebaut wird und wie diese File in CalculiX berechnen wird |
+| https://www.youtube.com/watch?v=IdB2nfdAWv0 | <img src="Refs/22.png" width="200" title=" Solution"> | Static Analysis mit zwei verschiedene Material Die Geometrie(Beam) wird in GMSH gemacht, danach wird in CalculiX berechnet. |
+| https://www.youtube.com/watch?v=maYdahDqzHw | <img src="Refs/23.png" width="200" title=" Solution"> | Die Geometrie ist in GMSH eingebaut, danach berechnet in CalculiX. |
+| https://www.youtube.com/watch?v=lNGrqhed9Io | <img src="Refs/24.png" width="200" title=" Solution"> | Salome + CalculiX - Es zeigt, wie eine CAD importierte Geometrie in Salome Netz gemacht wird, wie es in eine .inp File umgetauscht wird. |
+| https://www.youtube.com/watch?v=ERuHkWkH1o | <img src="Refs/25.png" width="200" title=" Solution"> | Eine komplexe Geometrie wird in Salome Netz gemacht, danach wird im CalculiX berechnet. |
+| https://www.youtube.com/watch?v=BEjfK5LNLhU | <img src="Refs/26.png" width="200" title=" Solution"> | Die verschiedene Beispiel wird in Salome Netz gemacht und in CalculiX berechnet.(Surface, Multibody mit unterschiedlich Material) |
+| https://www.youtube.com/watch?v=7JzNsp6UKmI | <img src="Refs/27.png" width="200" title=" Solution"> | FreeCad + Netgen + CalculiX. - Es Zeigt, wie eine Geometrie in Freecad eingebaut ist, wie Netz in Netgen gemacht ist und wie diese File in CalculiX berechnen wird. |
 
 
 PDF Link: http://sourceforge.mirrorservice.org/l/li/libremechanics/Analysis
