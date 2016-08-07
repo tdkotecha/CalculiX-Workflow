@@ -168,9 +168,11 @@ ________________________________________________________________________________
 
 b) run.fbd
 
-| #sys gmsh part3.STEP -clcurv -3; 
-| plate7.inp -order 2;
-| sys gmsh plate.geo
+| Commands      | Discription       |
+| :------- | :------------- |
+| #sys gmsh part3.STEP -clcurv -3; |
+| plate7.inp -order 2; |
+| sys gmsh plate.geo |
 | read plate.inp      | .geo File und .inp File Link Reading the Gmsh .geo file and .inp file |
 | #Support          | Support und Load |
 | comp Load do
