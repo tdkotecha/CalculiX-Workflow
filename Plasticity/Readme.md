@@ -21,6 +21,8 @@ Both this sets can be checked in CGX with command
 In the photo below, we can see the sets in CGX, which are defined in gmsh (.geo file)
 <img src="Refs/Sets-Plasticity.png" width="800" title="Set Definition">
 
+# Analysis
+
 The things which are checked,
 * Large displacements
 * with Plasticity
