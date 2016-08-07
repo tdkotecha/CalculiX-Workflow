@@ -277,12 +277,12 @@ Diese Problem habe ich in folgender Bilder gezeigt.
 
 3.1.3) Beispiel 2 (Kurbelwelle)
 
-| Commands      | Discription       |
+| Details      | Photo      |
 | :------- | :------------- |
-| - Netz in GMSH: Mit Komplex Geometrie wird es Problem gezeigt, wenn wir an diese Geometrie transient Analysis machen wollen. Diese Fehler ist „non-jacobian error“ d.h. wenn es Negativ Elements gibt, wird es nicht richtig analysieren. | <img src="Refs/13.png" width="400" title=".geo file"> |
-| - Eine Lösung für diese Problem ist das, dass wir Netz mit noch kleiner Element machen. Dafür gibt es auch eine paar Option in Gmsh, damit können wir die Oberflasche erkennen, wo „Surface distortion“ gibt und dann können diese Oberflasche mit noch kleiner Elementsize vernetzt lassen. Es ist in dieser Bilder gezeigt.       | <img src="Refs/14.png" width="400" title="Transfinite funktion"> |
-| - In dieser unterschiedlicher Bilder ist es erkennbar, dass einmal diese Kurbelwelle normal vernetzt ist und einmal jede Oberflasche unterschiedlich mit noch kleiner Element vernetzt ist.  | <img src="Refs/15.png" width="400" title="Vernetzt">
-| - Mit unterschiedliche Farbe wird es klar, wo negative Element steht. Danach können wir Diese Oberflasche noch kleiner vernetzen. | <img src="Refs/16.png" width="400" title=" file"> |
+| - Netz in GMSH: Mit Komplex Geometrie wird es Problem gezeigt, wenn wir an diese Geometrie transient Analysis machen wollen. Diese Fehler ist „non-jacobian error“ d.h. wenn es Negativ Elements gibt, wird es nicht richtig analysieren. | <img src="Refs/13.png" width="300" title=".geo file"> |
+| - Eine Lösung für diese Problem ist das, dass wir Netz mit noch kleiner Element machen. Dafür gibt es auch eine paar Option in Gmsh, damit können wir die Oberflasche erkennen, wo „Surface distortion“ gibt und dann können diese Oberflasche mit noch kleiner Elementsize vernetzt lassen. Es ist in dieser Bilder gezeigt.       | <img src="Refs/14.png" width="300" title="Transfinite funktion"> |
+| - In dieser unterschiedlicher Bilder ist es erkennbar, dass einmal diese Kurbelwelle normal vernetzt ist und einmal jede Oberflasche unterschiedlich mit noch kleiner Element vernetzt ist.  | <img src="Refs/15.png" width="300" title="Vernetzt">
+| - Mit unterschiedliche Farbe wird es klar, wo negative Element steht. Danach können wir Diese Oberflasche noch kleiner vernetzen. | <img src="Refs/16.png" width="300" title=" file"> |
 
 2) Salome:
 
