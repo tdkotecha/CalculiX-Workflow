@@ -18,31 +18,41 @@ INHALTSVERZEICHNIS
 * 4. Videos:…………………………………………………………………..17
 
 * 1. EINLEITUNG:
-'CalculiX ist eine Open Source Software für Finite Element Analysis ( FEM). Es
+
+CalculiX ist eine Open Source Software für Finite Element Analysis ( FEM). Es
 wird von Guido Dhondt und Klaus Wittig, Mitarbeiter der Firma MTU Auero-
 Engines, entwickelt, um dreidimensionale Strukturberechnungen
 durchzuführen. Es nutzt dabei das Abaqus- Eingabeformat für den
-Gleichungslösen.'
+Gleichungslösen.
+
 * 2. INSTALLATION
-'a) Wie wird die aktuelle Version von CalculiX in Windows PC installiert?
+
+a) Wie wird die aktuelle Version von CalculiX in Windows PC installiert?
+
 * Die aktuelle Version von CalculiX ist 2.10. Diese Version funktioniert
 nur im Linux. Es wird von der Website http://www.dhondt.de/
 heruntergeladen. Auf der Website werden der Quellcode und „Linux-
 Executables“ angeboten.'
+
  Für Windows kann die Version ,, CalculiX 2.8‘‘ von Bconverged Website
 herunterladen werden.
+
  Um die aktuelle Version in Windows zu installieren, gibt es drei
 Möglichkeiten:
+
 * 1). Oracle Virtual Box und Virtual Maschine bei Sven kaßbohm.
 * 2). Bconverged Version (CalculiX 2.8)
-* 3). Von Github Website,
+* 3). Von Github Website
+
 2.1 ORACLE VIRTUAL BOX UND VIRTUAL MASCHINE BEI SVEN
 KAßBOHM:
+
  Es gibt ein Programm ,,ORACLE Virtual Box (VB)‘‘, mit dem beide
 Windows und Linux gleichzeitig benutzt werden können. Diese VB ist
 auch eine freie Software, die wir direkt vom Internet herunterladen
 können. Es wird von der Website
 https://www.virtualbox.org/wiki/Downloads heruntergeladen.
+
  In diesem VB können wir verschiedene Virtual Maschine (VM)
 installieren. Es gibt eine spezielle VM für CalculiX. Diese VM ist bei Sven
 Kaßbohm zusammengestellt. Es wird unter der
@@ -50,55 +60,80 @@ Website ,,http://vbox.fiziko.de/‘‘ herunterladen. Diese VM ist ein Linux
 Betriebe System, damit ist CalculiX 2.10 schon installiert. Nachdem wir
 diese VM installiert haben, können wir uns direkt mit CalculiX
 beschäftigen.
+
 2.1.1 DAS PROBLEM UND DIE LÖSUNGEN:
+
 *Während der Installation können folgende Probleme entstehen:
 a) Fehlermeldung ,,one or more Virtual Maschine is already installed‘‘
+
  Wenn eine solche Fehlermeldung kommt, muss die USB Einstellung
 des Vbs verändert werden. Dies wird wie folgt getan:
 VB→Setting→ USB → verändern von Usb1 zu Usb2 oder Usb3.
+
  Es ist wichtig, die ,, EXTENSIONAL Pack“ vom Virtual Box
 herunterzuladen. Damit kann USB 2 und USB 3 Option funktionieren.
+
 b) Die VM ist schon installiert, aber es funktioniert nicht. Nur ein schwarzer
 Bildschirm ist zu sehen.
+
  Wenn ein solcher Fehler passiert, müssen die Einstellungen im BIOS
 verändert werden.Wenn der PC gestartet wird, müssen F2 oder Esc (ist
 anders für andere PC) gedruckt werden, um in BIOS-Einstellungen zu
 gehen. Dort gibt es eine ,,Virtualization Technologie‘‘ Option. Diese
 Option muss aktiviert werden.
-BIOS→ ADVANCE →INTEL VIRTUALIZATION TECHNOLOGY → ENABLE.
+
+> 'BIOS→ ADVANCE →INTEL VIRTUALIZATION TECHNOLOGY → ENABLE.'
+
  https://www.youtube.com/watch?v=-Wa7TGjmn5M- In dieser Video ist
 es gezeigt, wie Virtualization Technology aktiviert werden kann.
+
 2.2 CALCULIX 2.10 von BCONVERGED.
+
  Es wird CalculiX 2.10 Version von der Website
 http://www.bconverged.com/products.php heruntergeladen.
+
  Diese Version ist die aktuelle Version für Windows OS.
+
 2.3 CALCULIX 2.10 von Github (geänderte Version)
+
  Ich habe versucht, diese Version zu installieren,
 https://github.com/GeneralElectric/CalculiX das funktioniert bei mir.
+
 3) Wie wird die CAD Geometrie in CalculiX importiert?
+
 Es gibt einige Möglichkeiten, damit können wir CAD Geometrie in CalculiX
 benutzen.
+
 1) Gmsh:
 2) Salome:
 3) Netgen:
 4) Mecway:
+
 3.1) GMSH
+
 ● Gmsh ist ein freies 3D Finite-Elemente-Gittergenerator mit einem
 eingebauten in CAD-Engine und Post-Prozessor.
+
 ● Wir können in irgendwelche CAD Software ein Geometrie einbauen
 und in STEP Format einspeichern, danach können wir diese File in
 Gmsh öffnen und dann machen wir einfach Netz.
+
 ● Nachdem wir es Netz gemacht habe, können wir es als Input File für
 CalculiX (.inp) einspeichern . Wenn wir es als Input File eingespeichert
 haben, können wir es weiter in CalculiX benutzen.
+
 3.1.1) Beispiel 1 (Plate)
+
 ● Beispielweise zeige ich eine Geometrie, die ich in Solidworks
 eingebaut habe und weiter als .Step File gespeichert habe und in Gmsh
 vernetzt habe.
+
 ● Wir können unsere Vorgang in drei Script verteilen.
+
 a) plate.geo
 b) run.fbd
 c) solve.inp
+
 Ein Geometrie ist in Solidworks eingebaut und als STEP File eingespeichert.
 a) plate.geo:
 In diese Script machen wir Netz und plate.inp File.
