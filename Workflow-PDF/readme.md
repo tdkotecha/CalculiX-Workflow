@@ -245,48 +245,35 @@ Der Vorgang
 
 
 3.1.2 Das Problem:
+
 Wenn eine CAD File in GMSH importiert ist, gibt es Problem mit Netz.
 Diese Problem habe ich in folgender Bilder gezeigt.
-- Es gibt Problem mit einige CAD
-Geometrie, die als .step importiert
-wird. Wenn es Netz gemacht wird,
-steht es ganz kaputt.
-- Es ist in zweiter Bild gezeigt, dass
-die knoten mit einander falsche
-verbunden sind.
-- Die richtige Netz ist in dritter Bild
-gezeigt.
-- Ein Geometrie wird in GMSH
-vernetzt. Es gibt eine
-Option(Transfinite), damit wird es
-möglich diese Geometrie richtig Netz
-zu machen.
-- Wenn wir Netz in GMSH machen,
-können wir .geo File Öffnen lassen.
-Damit wird die Veränderung in Netz
-in diese .geo File gezeigt.
-- Diese Sets Kann man auch in CGX
-mit Command ,,prnt se“ zeigen. Es
-wird in dieser Bild gezeigt.
-Sets Defination:
-- Es ist möglich die physical Surface
-in Gmsh zu definieren. Diese
-physical Surface kann man in CGX
-verwenden, um die Randbedingungen
-zu definieren.
-- Ein Beispiel ist mit folgender Bild
-gezeigt.
-- Diese physical Surface kann man
-auch in CGX sehen.
+
+| Commands      | Discription       |
+| :------- | :------------- |
+| - Es gibt Problem mit einige CAD Geometrie, die als .step importiert wird. Wenn es Netz gemacht wird, steht es ganz kaputt. | <img src="Refs/6.png" width="300" title="Problem"> |
+| - Es ist in zweiter Bild gezeigt, dass die knoten mit einander falsche verbunden sind. | <img src="Refs/7.png" width="300" title="Problem1"> |
+| - Die richtige Netz ist in dritter Bild gezeigt.
+| - Ein Geometrie wird in GMSH vernetzt. Es gibt eine Option(Transfinite), damit wird es möglich diese Geometrie richtig Netz zu machen. | <img src="Refs/8.png" width="300" title="Loesung"> |
+| - Wenn wir Netz in GMSH machen, können wir .geo File Öffnen lassen. Damit wird die Veränderung in Netz in diese .geo File gezeigt. | <img src="Refs/9.png" width="300" title="Loesung2"> |
+| - Diese Sets Kann man auch in CGX mit Command ,,prnt se“ zeigen. Es wird in dieser Bild gezeigt.| <img src="Refs/10.png" width="300" title="Loesung3"> |
+| #  Sets Defination:
+| - Es ist möglich die physical Surface in Gmsh zu definieren. Diese physical Surface kann man in CGX verwenden, um die Randbedingungen zu definieren.| <img src="Refs/11.png" width="300" title="Set Definition"> |
+| - Ein Beispiel ist mit folgender Bild gezeigt.
+| - Diese physical Surface kann man auch in CGX sehen.| <img src="Refs/12.png" width="300" title="Set in CGX"> |
+
 3.1.3) Beispiel 2 (Kurbelwelle)
-- Netz in GMSH: Mit Komplex
+
+| Commands      | Discription       |
+| :------- | :------------- |
+| - Netz in GMSH: Mit Komplex
 Geometrie wird es Problem gezeigt,
 wenn wir an diese Geometrie
 transient Analysis machen wollen.
 Diese Fehler ist „non-jacobian error“
 d.h. wenn es Negativ Elements gibt,
-wird es nicht richtig analysieren.
-- Eine Lösung für diese Problem ist
+wird es nicht richtig analysieren. | <img src="Refs/13.png" width="300" title=".geo file"> |
+| - Eine Lösung für diese Problem ist
 das, dass wir Netz mit noch kleiner
 Element machen. Dafür gibt es auch
 eine paar Option in Gmsh, damit
@@ -295,22 +282,25 @@ erkennen, wo „Surface distortion“
 gibt und dann können diese
 Oberflasche mit noch kleiner
 Elementsize vernetzt lassen. Es ist in
-dieser Bilder gezeigt.
-- In dieser unterschiedlicher Bilder ist
+dieser Bilder gezeigt.       | <img src="Refs/14.png" width="300" title="Transfinite funktion"> |
+| - In dieser unterschiedlicher Bilder ist
 es erkennbar, dass einmal diese
 Kurbelwelle normal vernetzt ist und
 einmal jede Oberflasche
 unterschiedlich mit noch kleiner
-Element vernetzt ist.
-- Mit unterschiedliche Farbe wird es
+Element vernetzt ist.  | <img src="Refs/15.png" width="300" title="Vernetzt">
+| - Mit unterschiedliche Farbe wird es
 klar, wo negative Element steht.
 Danach können wir Diese
-Oberflasche noch kleiner vernetzen.
+Oberflasche noch kleiner vernetzen. | <img src="Refs/16.png" width="300" title=" file">
+
 2) Salome:
+
 SALOME ist eine Open- Source-Software , die eine generische Plattform
 für Pre- und Post-Processing für die numerische Simulation zur Verfügung
 stellt. Es basiert auf einer offenen und flexible Architektur wieder
 verwendbarer Komponenten
+
 .Step File in salome geöffnet
 Netz in Salome.
 Veränderung von .UNV File zu
