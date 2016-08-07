@@ -15,7 +15,7 @@ The photo of hcpy_1 shows the boundry condition.
 
 <img src="Refs/gmshVT.png" width="400" title="Meshing">
 
--Displacement Photo
+-Von mises Stress Photo
 
 <img src="Refs/se.png" width="400" title="Displacement">
 
