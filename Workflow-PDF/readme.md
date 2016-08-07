@@ -266,33 +266,10 @@ Diese Problem habe ich in folgender Bilder gezeigt.
 
 | Commands      | Discription       |
 | :------- | :------------- |
-| - Netz in GMSH: Mit Komplex
-Geometrie wird es Problem gezeigt,
-wenn wir an diese Geometrie
-transient Analysis machen wollen.
-Diese Fehler ist „non-jacobian error“
-d.h. wenn es Negativ Elements gibt,
-wird es nicht richtig analysieren. | <img src="Refs/13.png" width="300" title=".geo file"> |
-| - Eine Lösung für diese Problem ist
-das, dass wir Netz mit noch kleiner
-Element machen. Dafür gibt es auch
-eine paar Option in Gmsh, damit
-können wir die Oberflasche
-erkennen, wo „Surface distortion“
-gibt und dann können diese
-Oberflasche mit noch kleiner
-Elementsize vernetzt lassen. Es ist in
-dieser Bilder gezeigt.       | <img src="Refs/14.png" width="300" title="Transfinite funktion"> |
-| - In dieser unterschiedlicher Bilder ist
-es erkennbar, dass einmal diese
-Kurbelwelle normal vernetzt ist und
-einmal jede Oberflasche
-unterschiedlich mit noch kleiner
-Element vernetzt ist.  | <img src="Refs/15.png" width="300" title="Vernetzt">
-| - Mit unterschiedliche Farbe wird es
-klar, wo negative Element steht.
-Danach können wir Diese
-Oberflasche noch kleiner vernetzen. | <img src="Refs/16.png" width="300" title=" file">
+| - Netz in GMSH: Mit Komplex Geometrie wird es Problem gezeigt, wenn wir an diese Geometrie transient Analysis machen wollen. Diese Fehler ist „non-jacobian error“ d.h. wenn es Negativ Elements gibt, wird es nicht richtig analysieren. | <img src="Refs/13.png" width="300" title=".geo file"> |
+| - Eine Lösung für diese Problem ist das, dass wir Netz mit noch kleiner Element machen. Dafür gibt es auch eine paar Option in Gmsh, damit können wir die Oberflasche erkennen, wo „Surface distortion“ gibt und dann können diese Oberflasche mit noch kleiner Elementsize vernetzt lassen. Es ist in dieser Bilder gezeigt.       | <img src="Refs/14.png" width="300" title="Transfinite funktion"> |
+| - In dieser unterschiedlicher Bilder ist es erkennbar, dass einmal diese Kurbelwelle normal vernetzt ist und einmal jede Oberflasche unterschiedlich mit noch kleiner Element vernetzt ist.  | <img src="Refs/15.png" width="300" title="Vernetzt">
+| - Mit unterschiedliche Farbe wird es klar, wo negative Element steht. Danach können wir Diese Oberflasche noch kleiner vernetzen. | <img src="Refs/16.png" width="300" title=" file"> |
 
 2) Salome:
 
@@ -301,16 +278,19 @@ für Pre- und Post-Processing für die numerische Simulation zur Verfügung
 stellt. Es basiert auf einer offenen und flexible Architektur wieder
 verwendbarer Komponenten
 
-.Step File in salome geöffnet
-Netz in Salome.
-Veränderung von .UNV File zu
-.inp(CalculiX Input) File mit
-CalculiX Launcher.
-Das Ergebnisse.
+| Commands      | Discription       |
+| :------- | :------------- |
+| .Step File in salome geöffnet | <img src="Refs/17.png" width="300" title=" Geometrie in Salome"> |
+| Netz in Salome. | <img src="Refs/18.png" width="300" title="Vernetzt"> |
+| Veränderung von .UNV File zu .inp(CalculiX Input) File mit CalculiX Launcher. | <img src="Refs/16.png" width="300" title=" UNV File Converter"> |
+| Das Ergebnisse. | <img src="Refs/19.png" width="300" title=" Solution"> |
+
 Es wird zuerst die CAD File in Salome Software importiert. Danach machen
 wir Netz und speichern wir .UNV File Von .UNV Format bis .inp Format in
 CalculiX Launcher umtauschen. und dann .inp File in CalculiX benutzen.
+
 3) Netgen:
+
 NETGEN ist eine automatische 3d tetraedrischen Netzgenerator . Er
 akzeptiert Eingaben von Konstruktive Solid Geometrie (CSG) oder
 Randdarstellung (BRep) von STIL-Dateiformat . Die Verbindung zu einem
@@ -318,7 +298,9 @@ Geometrie-Kernel ermöglicht die Handhabung von IGES- und STEPDateien.
 NETGEN enthält Module für Netz-Optimierung und hierarchische
 Netzverfeinerung . Netgen ist Open Source auf der LGPL-Lizenz basiert. Es
 ist für Unix / Linux und Windows.
+
 4)Mecway
+
 Mecway ist ein umfassendes benutzerfreundliche Finite-Elemente-Analyse-
 Paket für Windows mit einem Schwerpunkt auf mechanische und thermische
 Simulation wie Spannungsanalyse , Vibration und Wärmefluss . Es ist
@@ -328,11 +310,11 @@ Es gibt eine freie Version für Studenten, damit können wir nur bis 1000
 Knoten analysieren.
 Wenn das Knoten mehr als 1000 sind, es berechnet nicht weiter und
 deswegen können wir die komplexe Geometrie nicht analysieren.
-4) Videos
-Video Link Blick Information
-https://www.youtube.co
-m/watch?
-v=zDIUZluXTko
+
+# 4) Videos
+| Video  | Link Blick  | Information | 
+| :------- | :------------- |
+| https://www.youtube.com/watch?v=zDIUZluXTko | 
 Gmsh + calculix
 Es zeigt, wie eine Step
 File in GMSH importiert
