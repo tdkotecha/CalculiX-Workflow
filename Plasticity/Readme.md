@@ -45,6 +45,13 @@ Displacement photo
 
 <img src="Refs/se.png" width="400" title="Displacement">
 
+Solving
+```
+> ccx Solve
+> monitor.py Solve
+```
+<img src="Refs/Solve.png" width="400" title="Displacement">
+
 
 
 
