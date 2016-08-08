@@ -37,3 +37,7 @@ Physical Surface('upper') = {7, 8};
 Physical Surface('lower') = {1, 16};
 
 Save "Plasticity.inp";
+General.Trackball=0;
+General.RotationX=10;
+Geometry.HideCompounds = 1;
+Save "gmshVT.png";
