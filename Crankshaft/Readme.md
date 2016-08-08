@@ -35,7 +35,7 @@ The results are then checked.
 
 The Sets which are defined in Gmsh can be seen in CGX,
 
-For example, In this Analysis, there are two sets defined in Gmsh, that are Support and Pressure. You can check this Sets in .geo file.
+For example, In this Analysis, there are two sets defined in Gmsh, that are Support and Pressure. You can check this Sets in .geo file image above.
 
 Both this sets can be checked in CGX with command 
 ```
