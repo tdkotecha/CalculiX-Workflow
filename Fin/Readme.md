@@ -35,7 +35,8 @@ Photo(.geo file)
 
 <img src="Refs/geo.png" width="400" title=".geo file">
 
-Stress Photo
+Von-misses Stress 
+
 <img src="Refs/se.png" width="400" title="von Mises stress">
 
 Set defination 
