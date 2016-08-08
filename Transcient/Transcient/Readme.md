@@ -18,10 +18,10 @@ A) Procedure to do the analysis
 
 | File     | Contents       |
 | :------- | :------------- |
-| Transient.step	|  STEP geometry exported from Onshape |
-| Transient.geo	|  Gmsh  control file for meshing and model display |
-| Transient.fbd	|  CGX   control file for preprocessing, solving and postprocessing |
-| solve.inp	  |    CCX input file |
+| [Transient.step](Transient.step)	|  STEP geometry exported from Onshape |
+| [Transient.geo](Transient.geo)	|  Gmsh  control file for meshing and model display |
+| [Transient.fbd](Transient.fbd)	|  CGX   control file for preprocessing, solving and postprocessing |
+| [solve.inp](solve.inp)	  |    CCX input file |
 
 * Boundry Conditions
 
