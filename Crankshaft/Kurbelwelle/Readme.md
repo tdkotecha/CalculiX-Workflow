@@ -14,7 +14,7 @@
 
 -Then, i used transfinite function to do finer meshing and overcome surface meshing, but still it showed 20 surface distortion.
 
-* In the following images, i have showed, how this transfinite function is used for every surface
+* In the following images, i have showed, how the geometry looks after transfinite function is used for every surface
 
 Image of meshing
 ```
