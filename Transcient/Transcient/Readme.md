@@ -35,6 +35,9 @@ A) Procedure to do the analysis
 -Meshing is done in Gmsh and Transfinite Funktion is used to do a finer meshing.
 
 -Photo(.geo file)
+```
+> gmsh Transcient.geo
+```
 
 <img src="Refs/gmshVT.png" width="400" title="Geo file">
 
@@ -52,12 +55,19 @@ Both this sets can be checked in CGX with command
 
 <img src="Refs/Sets-Transient.png" width="400" title="Set definition ">
 
+Displacement photo
+```
+> cgx -b Plasticity.fbd
+```
+
+<img src="Refs/se.png" width="400" title="Displacement">
+
 Solving
 ```
 > ccx solve
 > monitor.py solve
 ```
-<img src="Refs/solve.png" width="400" title="Displacement">
+<img src="Refs/solve.png" width="400" title="Solve">
 
 
 
