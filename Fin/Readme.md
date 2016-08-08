@@ -14,7 +14,7 @@ Its a unconstrained body.
 
 | File     | Contents       |
 | :------- | :------------- |
-| [Fin.step] (Fin.step) |  STEP geometry exported from Onshape |
+| [Fin.step] (Fin.step) |  STEP geometry imported from 3D-modeling Software |
 | [Fin.geo] (Fin.geo) |	Gmsh  control file for meshing and model display |
 | [Fin.fbd] (Fin.fbd)	| CGX control file for preprocessing, solving and postprocessing |
 | [solve.inp] (solve.inp) |	  CCX input file |
