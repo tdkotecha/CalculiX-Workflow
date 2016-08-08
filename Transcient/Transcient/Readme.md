@@ -58,4 +58,12 @@ Both this sets can be checked in CGX with command
 
 <img src="Refs/Sets-Transient.png" width="400" title="Set definition ">
 
+Solving
+```
+> ccx solve
+> monitor.py solve
+```
+<img src="Refs/solve.png" width="400" title="Displacement">
+
+
 
