@@ -26,17 +26,20 @@ Mesh
 * With the help of transfinite function, we can mesh the component(with smaller or bigger elements) as per our convenience. The figure bellow shows, how a transfinite function can be applied. 
 * This transfinite function can be applied to lines, surface and volumes
 
-
 <img src="Refs/Transfinite.png" width="400" title="Transfinite function">
 
 Photo(.geo file)
-
+```
+> gmsh Fin.geo
+```
 <img src="Refs/gmshVT.png" width="400" title=".geo file">
 
 <img src="Refs/geo.png" width="400" title=".geo file">
 
 Von-misses Stress 
-
+```
+> cgx -b Fin.fbd
+```
 <img src="Refs/se.png" width="400" title="von Mises stress">
 
 Set defination 
