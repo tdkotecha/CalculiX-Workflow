@@ -2,9 +2,11 @@
 
 * Its difficult to import a complex geometry and mesh it in gmsh.
 
-* In this Example, i have tried to show to do finer meshing of the component, so that when it is used in CalculiX, then there will be no Non-Jacobian errors.
-Because when we have a complex geometry and what to do a static transient or dynamic transient analysis, then this normally meshed geometry from gmsh shows this non-jacobian errors.
-One way to minimize this error is to use transfinite function to do finer meshing and to overcome the surface distortion.
+* In this Example, i have tried to do finer meshing of the component, so that when it is used in CalculiX, then there will be no Non-Jacobian errors.
+
+* Because when we have a complex geometry and what to do a static transient or dynamic transient analysis, then this normally meshed geometry from gmsh shows this non-jacobian errors.
+
+* One way to minimize this error is to use transfinite function to do finer meshing and to overcome the surface distortion.
 
 * I have tried to do this,
 
