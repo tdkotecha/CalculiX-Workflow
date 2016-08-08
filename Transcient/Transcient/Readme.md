@@ -2,27 +2,19 @@
 
 The things which are checked,
 
--Large displacements
+* Large displacements
+* without Plasticity
+* Buckling with imperfection (a small internal pressure of -1N)
 
--without Plasticity
+A) Procedure to do the analysis
 
--Buckling with imperfection (a small internal pressure of -1N)
-
-* Procedure to do the analysis
-
-1) Import the STEP File in Gmsh.
-
-2) Do the meshing using Transfinite function.
-
-3) Create Physical surfaces, which you can use as sets in CGX.
-
-4) Create the .inp File.
-
-5) Create .fbd File using this .geo File and .inp file for Analysis
-
-6) Create Solve.inp file
-
-7) Run the analysis.
+* Import the STEP File in Gmsh.
+* Do the meshing using Transfinite function.
+* Create Physical surfaces, which you can use as sets in CGX.
+* Create the .inp File.
+* Create .fbd File using this .geo File and .inp file for Analysis
+* Create Solve.inp file
+* Run the analysis.
 
 | File     | Contents       |
 | :------- | :------------- |
@@ -43,6 +35,8 @@ The things which are checked,
 -Meshing is done in Gmsh and Transfinite Funktion is used to do a finer meshing.
 
 -Photo(.geo file)
+
+<img src="Refs/gmshVT.png" width="400" title="Geo file">
 
 <img src="Refs/hcpy_2.png" width="400" title="Geo file">
 
