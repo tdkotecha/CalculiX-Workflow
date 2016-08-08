@@ -23,8 +23,12 @@ Only temperature is given at the bottom surface of 25 degree.
 
 Mesh 
 * Meshing is done in Gmsh and Transfinite Funktion is used to do a finer meshing.
+* With the help of transfinite function, we can mesh the component(with smaller or bigger elements) as per our convenience. The figure bellow shows, how a transfinite function can be applied. 
+* This transfinite function can be applied to lines, surface and volumes
 
 Photo(.geo file)
+<img src="Refs/Transfinite.png" width="400" title="Transfinite function">
+
 <img src="Refs/gmshVT.png" width="400" title=".geo file">
 
 <img src="Refs/geo.png" width="400" title=".geo file">
