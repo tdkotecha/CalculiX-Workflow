@@ -4,6 +4,14 @@ The Basic intention was to do meshing of a complicated geometry in GMSH and see 
 
 This analysis was done to check the stress on the crankshaft.
 
+* Meshing
+
+Meshing was done in Gmsh.(Without using any Functions.) 
+
+Photo(.geo file)
+
+<img src="Refs/gmshVT.png" width="400" title="Sets for boundary application">
+
 * Boundry conditions
 
 The surface which is in contact with the bearing or the pulley with the belt, are fixed and Pressure is aplied, where the Crank rod is connected with the crank shaft i.e Rod journel portion.
@@ -18,13 +26,6 @@ Pressure of 1000 N is applied and results are checked.
 The pressure is given 1000 N because when the piston retracts it excerts pressure on the Rod journel portion of the crankshaft, at that time the pressure is in betwwen 800N to 1800N, since i am not doing a exact dynamic analysis i have given a pressure of 1000N. 
 
 The results are then checked.
-
-* Meshing
-
-Meshing was done in Gmsh.(Without using any Functions.) 
-
-Photo(.geo file)
-<img src="Refs/gmshVT.png" width="400" title="Sets for boundary application">
 
 * Stress Photo
 
