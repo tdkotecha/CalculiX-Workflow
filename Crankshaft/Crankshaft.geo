@@ -15,3 +15,7 @@ Physical Surface("Support")={104,112};
 
 Physical Surface("Pressure")={144};
 Save "Crankshaft.inp";
+General.Trackball=0;
+General.RotationX=10;
+Geometry.HideCompounds = 1;
+Save "gmshVT.png";
