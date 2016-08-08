@@ -14,3 +14,7 @@ Mesh.SaveAll = 1;
 Physical Surface("Support")={36};
 Physical Volume("Part")={1};
 Save "Fin.inp";
+General.Trackball=0;
+General.RotationX=10;
+Geometry.HideCompounds = 1;
+Save "gmshVT.png";
