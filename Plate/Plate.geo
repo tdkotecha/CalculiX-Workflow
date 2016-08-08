@@ -17,3 +17,7 @@ Physical Surface("Support")={5,15};
 Physical Surface("Load")={10};
 Physical Volume("Part")={1};
 Save "Plate.inp";
+General.Trackball=0;
+General.RotationX=-50;
+Geometry.HideCompounds = 1;
+Save "gmshVT.png";
