@@ -28,6 +28,14 @@ The things which are checked,
 * with Plasticity
 * Buckling with imperfection (a small internal pressure of -1N)
 
+| File     | Contents       |
+| :------- | :------------- |
+| [Plasticity.step](Plasticity.step) | STEP geometry Imported from 3D Modeling Software |
+| [Plasticity.geo](Plasticity.geo) | Gmsh control file for meshing and model display |
+| [Plasticity.fbd](Plasticity.fbd) | CGX control file for preprocessing, solving and postprocessing |
+| [solve.inp](solve.inp) | CCX input file |
+
+
 Boundry Conditions
 * The Incoming and outgoing holes Surfaces are fixed.
 
