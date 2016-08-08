@@ -6,11 +6,15 @@ This analysis was done to check the stress on the crankshaft.
 
 * Meshing
 
-Meshing was done in Gmsh.(Without using any Functions.) 
+Meshing was done in Gmsh (Without using any Functions). Two physical surfaces(Pressure and support) were also defined in Gmsh so that they can be used as sets in CGX 
 
 Photo(.geo file)
 
 <img src="Refs/gmshVT.png" width="400" title="Sets for boundary application">
+
+Physical Surface definition
+
+<img src="Refs/Crankshaft-sets.png" width="400" title="Sets for boundary application">
 
 * Boundry conditions
 
