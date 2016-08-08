@@ -18,7 +18,7 @@ A) Procedure to do the analysis
 
 | File     | Contents       |
 | :------- | :------------- |
-| [Transient.step](Transient.step)	|  STEP geometry exported from Onshape |
+| [Transient.step](Transient.step)	|  STEP geometry imported from 3D modeling Software |
 | [Transient.geo](Transient.geo)	|  Gmsh  control file for meshing and model display |
 | [Transient.fbd](Transient.fbd)	|  CGX   control file for preprocessing, solving and postprocessing |
 | [solve.inp](solve.inp)	  |    CCX input file |
