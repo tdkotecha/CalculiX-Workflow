@@ -26,12 +26,17 @@ Photo(.geo file)
 <img src="Refs/gmshVT.png" width="400" title="Sets for boundary application">
 
 * Stress Photo
-/home/user/Calculix files/calculiX-Beispielen/Crankshaft/Refs/se.png
 
 The Sets which are defined in Gmsh can be seen in CGX,
-For example, In this Analysis, there are two sets defined in Gmsh, that are Support and Pressure. You can check this Sets in .geo file.
-Both this sets can be checked in CGX with command ,prnt se'.
 
+For example, In this Analysis, there are two sets defined in Gmsh, that are Support and Pressure. You can check this Sets in .geo file.
+
+Both this sets can be checked in CGX with command 
+```
+> ,prnt se'.
+```
 In the photo below, we can see the sets which are defined in gmsh, in CGX
 <img src="Refs/Sets-Crankshaft.png" width="400" title="Sets for boundary application">
 
+Result
+<img src="Refs/se.png" width="400" title="Sets for boundary application">
