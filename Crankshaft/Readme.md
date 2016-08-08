@@ -38,5 +38,6 @@ Both this sets can be checked in CGX with command
 In the photo below, we can see the sets which are defined in gmsh, in CGX
 <img src="Refs/Sets-Crankshaft.png" width="400" title="Sets for boundary application">
 
-Result
+* Result Von misses Stress
+
 <img src="Refs/se.png" width="400" title="Sets for boundary application">
