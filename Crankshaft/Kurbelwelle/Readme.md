@@ -10,7 +10,7 @@
 
 * I have tried to do this,
 
-- First, when normal meshing was done it showed around 220 surface distortion errors, because of which the non-jacobian error showed in CGX
+-First, when normal meshing was done it showed around 220 surface distortion errors, because of which the non-jacobian error showed    in CGX
 
 -Then, i used transfinite function to do finer meshing and overcome surface meshing, but still it showed 20 surface distortion.
 
