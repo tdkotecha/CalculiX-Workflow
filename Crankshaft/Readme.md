@@ -9,7 +9,9 @@ This analysis was done to check the stress on the crankshaft.
 Meshing was done in Gmsh (Without using any Functions). Two physical surfaces(Pressure and support) were also defined in Gmsh so that they can be used as sets in CGX 
 
 Photo(.geo file)
-
+```
+> gmsh Crankshaft.geo
+```
 <img src="Refs/gmshVT.png" width="400" title="Sets for boundary application">
 
 Physical Surface definition
@@ -22,7 +24,7 @@ The surface which is in contact with the bearing or the pulley with the belt, ar
 
 Photo
 
-<img src="Refs/sets.png" width="400" title="Sets for boundary application">
+<img src="Refs/sets.png" width="400" title="Stress">
 
 Pressure Definition
 Pressure of 1000 N is applied and results are checked.
@@ -31,6 +33,12 @@ The pressure is given 1000 N because when the piston retracts it excerts pressur
 The results are then checked.
 
 * Stress Photo
+```
+> cgx -b Crankshaft.fbd
+```
+
+<img src="Refs/se.png" width="400" title="Sets for boundary application">
+
 
 The Sets which are defined in Gmsh can be seen in CGX,
 
