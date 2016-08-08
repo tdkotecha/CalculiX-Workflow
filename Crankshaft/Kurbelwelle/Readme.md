@@ -20,6 +20,6 @@ Image of meshing
 ```
 <img src="Refs/gmsh.png" width="400" title="Mesh based on the original geometry">
 
-<img src="Refs/transfinite.png" width="400" title="Mesh based on the original geometry">
+<img src="Refs/tranfinite.png" width="400" title="Mesh based on the original geometry">
 
-<img src="Refs/transfinite2.png" width="400" title="Mesh based on the original geometry">
+<img src="Refs/tranfinite2.png" width="400" title="Mesh based on the original geometry">
