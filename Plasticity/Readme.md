@@ -47,10 +47,10 @@ Displacement photo
 
 Solving
 ```
-> ccx Solve
-> monitor.py Solve
+> ccx solve
+> monitor.py solve
 ```
-<img src="Refs/Solve.png" width="400" title="Displacement">
+<img src="Refs/solve.png" width="400" title="Displacement">
 
 
 
