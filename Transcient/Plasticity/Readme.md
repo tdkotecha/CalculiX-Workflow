@@ -38,10 +38,16 @@ Meshing
 * Meshing is done in Gmsh and Transfinite Function is used to do a finer meshing.
 
 Photo(.geo file)
+```
+> gmsh Plasticity.geo
+```
 
 <img src="Refs/gmshVT.png" width="400" title=".geo file">
 
 Displacement photo
+```
+> cgx -b Plasticity.fbd
+```
 
 <img src="Refs/se.png" width="400" title="Displacement">
 
