@@ -27,8 +27,7 @@ Photo
 Pressure Definition
 Pressure of 1000 N is applied and results are checked.
 
-The pressure is given 1000 N because when the piston retracts it excerts pressure on the Rod journel portion of the crankshaft, at that time the pressure is in betwwen 800N to 1800N, since i am not doing a exact dynamic analysis i have given a pressure of 1000N. 
-
+The pressure is given 1000 N because when the piston retracts it excerts pressure on the Rod journel portion of the crankshaft, at that time the pressure is in betwwen 800N to 1800N, since i am not doing a exact analysis, therefore i have given a pressure of 1000N. 
 The results are then checked.
 
 * Stress Photo
