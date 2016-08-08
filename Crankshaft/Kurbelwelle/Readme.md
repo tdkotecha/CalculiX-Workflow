@@ -13,3 +13,13 @@ One way to minimize this error is to use transfinite function to do finer meshin
 -Then, i used transfinite function to do finer meshing and overcome surface meshing, but still it showed 20 surface distortion.
 
 * In the following images, i have showed, how this transfinite function is used for every surface
+
+Image of meshing
+```
+> gmsh Kurbelwelle.geo
+```
+<img src="Refs/gmsh.png" width="400" title="Mesh based on the original geometry">
+
+<img src="Refs/transfinite.png" width="400" title="Mesh based on the original geometry">
+
+<img src="Refs/transfinite1.png" width="400" title="Mesh based on the original geometry">
