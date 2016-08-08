@@ -4,6 +4,14 @@ The Basic intention was to do meshing of a complicated geometry in GMSH and see 
 
 This analysis was done to check the stress on the crankshaft.
 
+| File     | Contents       |
+| :------- | :------------- |
+| [Cranshaft.step](Crankshaft.step) | STEP geometry Imported from 3D Modeling Software |
+| [Crankshaft.geo](Crankshaft.geo) | Gmsh control file for meshing and model display |
+| [Crankshaft.fbd](Crankshaft.fbd) | CGX control file for preprocessing, solving and postprocessing |
+| [solve.inp](solve.inp) | CCX input file |
+
+
 * Meshing
 
 Meshing was done in Gmsh (Without using any Functions). Two physical surfaces(Pressure and support) were also defined in Gmsh so that they can be used as sets in CGX 
