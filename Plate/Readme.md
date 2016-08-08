@@ -12,11 +12,15 @@ The photo of hcpy_1 shows the boundry condition.
 <img src="Refs/sets.png" width="400" title="Boundary conditions">
 
 -Meshing photo(.geo file)
-
+```
+> gmsh Plate.geo
+```
 <img src="Refs/gmshVT.png" width="400" title="Meshing">
 
 -Von mises Stress Photo
-
+```
+> cgx -b Plate.fbd
+```
 <img src="Refs/se.png" width="400" title="Displacement">
 
 * Set Defination
