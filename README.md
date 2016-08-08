@@ -9,3 +9,5 @@ In Workflow-PDF above, you can understand from very basic about CalculiX, For Ex
 * Problems and solution for Meshing a imported geometry (.Step File)
 * Some examples to start with analysis in CalculiX
 * Some reference videos, which can help in learning the basic analysis in Calculix and also workflow of Calculix with other softwares like Gmsh, Salome, Netgen and Mecway.
+
+All the files above are checked with CaluliX 2.10 and Gmsh 2.10.1 in Linux. 
