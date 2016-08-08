@@ -5,6 +5,7 @@ The Basic intention was to do meshing of a complicated geometry in GMSH and see 
 This analysis was done to check the stress on the crankshaft.
 
 * Boundry conditions
+
 The surface which is in contact with the bearing or the pulley with the belt, are fixed and Pressure is aplied, where the Crank rod is connected with the crank shaft i.e Rod journel portion.
 
 Photo
