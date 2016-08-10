@@ -26,7 +26,7 @@ Physical Surface definition
 
 <img src="Refs/Crankshaft-sets.png" width="400" title="Sets for boundary application">
 
-* Boundry conditions
+* Boundary conditions
 
 The surface which is in contact with the bearing or the pulley with the belt, are fixed and Pressure is aplied, where the Crank rod is connected with the crank shaft i.e Rod journel portion.
 
@@ -44,7 +44,7 @@ The results are then checked.
 ```
 > cgx -b Crankshaft.fbd
 ```
-* Result Von misses Stress
+* Result von Mises Stress
 
 <img src="Refs/se.png" width="400" title="Sets for boundary application">
 
