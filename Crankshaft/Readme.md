@@ -78,6 +78,11 @@ In the photo below, we can see the sets which are defined in gmsh, in CGX
 
 * In the following images, i have showed, how the geometry looks after transfinite function is used for every surface
 
+| File     | Contents       |
+| :------- | :------------- |
+| [Kurbelwelle.stp](Kurbelwelle.stp) | STEP geometry Imported from 3D Modeling Software |
+| [Kurbelwelle.geo](Kurbelwelle.geo) | Gmsh control file for meshing and model display |
+
 Image of meshing
 ```
 > gmsh Kurbelwelle.geo
