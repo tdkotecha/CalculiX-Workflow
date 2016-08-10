@@ -6,7 +6,7 @@ This analysis was done to check the stress on the crankshaft.
 
 | File     | Contents       |
 | :------- | :------------- |
-| [Cranshaft.step](Crankshaft.step) | STEP geometry Imported from 3D Modeling Software |
+| [Cranshaft.stp](Crankshaft.stp) | STEP geometry Imported from 3D Modeling Software |
 | [Crankshaft.geo](Crankshaft.geo) | Gmsh control file for meshing and model display |
 | [Crankshaft.fbd](Crankshaft.fbd) | CGX control file for preprocessing, solving and postprocessing |
 | [solve.inp](solve.inp) | CCX input file |
