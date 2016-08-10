@@ -4,7 +4,7 @@ This analysis was also done to get used to the workflow of CalculiX and GMSH.
 
 | File     | Contents       |
 | :------- | :------------- |
-| [Plate.step](Plate.step) | STEP geometry Imported from 3D Modeling Software |
+| [Plate.STEP](Plate.STEP) | STEP geometry Imported from 3D Modeling Software |
 | [Plate.geo](Plate.geo) | Gmsh control file for meshing and model display |
 | [Plate.fbd](Plate.fbd) | CGX control file for preprocessing, solving and postprocessing |
 | [solve.inp](solve.inp) | CCX input file |
