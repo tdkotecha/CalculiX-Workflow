@@ -96,7 +96,7 @@ A) Procedure to do the analysis
 
 -Photo
 
-<img src="Refs/sets.png" width="400" title="Boundary Condition">
+<img src="Refs/sets1.png" width="400" title="Boundary Condition">
 
 * Meshing
 -Meshing is done in Gmsh and Transfinite Funktion is used to do a finer meshing.
@@ -106,9 +106,9 @@ A) Procedure to do the analysis
 > gmsh Transcient.geo
 ```
 
-<img src="Refs/gmshVT.png" width="400" title="Geo file">
+<img src="Refs/gmshVT1.png" width="400" title="Geo file">
 
-<img src="Refs/hcpy_2.png" width="400" title="Geo file">
+<img src="Refs/hcpy_21.png" width="400" title="Geo file">
 
 * Set Defination
 
@@ -120,21 +120,21 @@ Both this sets can be checked in CGX with command
 ```
 -In the photo below, we can see the sets which are defined in gmsh, in CGX
 
-<img src="Refs/Sets-Transient.png" width="400" title="Set definition ">
+<img src="Refs/Sets-Transient1.png" width="400" title="Set definition ">
 
 Displacement photo
 ```
 > cgx -b Plasticity.fbd
 ```
 
-<img src="Refs/se.png" width="400" title="Displacement">
+<img src="Refs/se1.png" width="400" title="Displacement">
 
 Solving
 ```
 > ccx solve
 > monitor.py solve
 ```
-<img src="Refs/solve.png" width="400" title="Solve">
+<img src="Refs/solve1.png" width="400" title="Solve">
 
 
 
