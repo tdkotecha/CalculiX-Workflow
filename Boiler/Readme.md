@@ -87,7 +87,7 @@ The things which are checked,
 * Buckling with imperfection (a small internal pressure of -1N)
 
 
-* Boundry Conditions
+Boundry Conditions
 
 -The Incoming and outgoing holes Surfaces are fixed.
 
