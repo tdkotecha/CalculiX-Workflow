@@ -1,7 +1,7 @@
 # sys gmsh part.step -clcurv -3 -o gmsh.inp -order 2
 # Reading the Gmsh .geo file and .inp file
-sys gmsh Transient.geo
-read Transient.inp
+sys gmsh Plasticity.geo
+read Plasticity.inp
 
 # Meshing the geometry and sending all.msh file
 elty all qu8
@@ -23,8 +23,8 @@ hcpy png
 sys mv hcpy_1.png geo.png
 
 # Command for solving in CCX
-sys ccx solve
-read solve.frd
+sys ccx solve1
+read solve1.frd
 
 # Create the plot for deformed Surface and saving the Image
 rot y
