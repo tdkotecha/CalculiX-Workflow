@@ -1,4 +1,4 @@
-# Buckling and transient analysis of Boiler Surface
+# Buckling and Transient Analysis of Boiler Surface
 
 First I have shown workflow of CalculiX with Gmsh and then i have done the analysis
 
