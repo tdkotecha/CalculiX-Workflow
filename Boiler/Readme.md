@@ -21,7 +21,7 @@ Both this sets can be checked in CGX with command
 In the photo below, we can see the sets in CGX, which are defined in gmsh (.geo file)
 <img src="Refs/Sets-Plasticity.png" width="800" title="Set Definition">
 
-Now I have done two analysis on a same .Step file, one with plasticity and other without plasticity. These two analysis has .Step and .geo File same, whereas .fbd file and solve.inp files are changed as per requierment. The analysis are as follows,
+* Now I have done two analysis on a same model, one with plasticity and other without plasticity. These two analysis has .Step and .geo File same, whereas .fbd file and solve.inp files are changed as per requierment. The analysis are as follows,
 
 # Analysis 1 (with Plasticity)
 
