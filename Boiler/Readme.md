@@ -96,7 +96,7 @@ Boundry Conditions
 <img src="Refs/sets1.png" width="400" title="Boundary Condition">
 
 * Meshing
--Meshing is done in Gmsh and Transfinite Funktion is used to do a finer meshing.
+-Meshing is done in Gmsh and Transfinite Function is used to do a finer meshing.
 
 -Photo(.geo file)
 ```
