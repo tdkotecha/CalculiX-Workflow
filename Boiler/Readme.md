@@ -23,6 +23,16 @@ In the photo below, we can see the sets in CGX, which are defined in gmsh (.geo 
 
 # Analysis
 
+A) Procedure to do the analysis
+
+* Import the STEP File in Gmsh.
+* Do the meshing using Transfinite function.
+* Create Physical surfaces, which you can use as sets in CGX.
+* Create the .inp File.
+* Create .fbd File using this .geo File and .inp file for Analysis
+* Create Solve.inp file
+* Run the analysis.
+
 The things which are checked,
 * Large displacements
 * with Plasticity
@@ -76,15 +86,6 @@ The things which are checked,
 * without Plasticity
 * Buckling with imperfection (a small internal pressure of -1N)
 
-A) Procedure to do the analysis
-
-* Import the STEP File in Gmsh.
-* Do the meshing using Transfinite function.
-* Create Physical surfaces, which you can use as sets in CGX.
-* Create the .inp File.
-* Create .fbd File using this .geo File and .inp file for Analysis
-* Create Solve.inp file
-* Run the analysis.
 
 * Boundry Conditions
 
