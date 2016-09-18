@@ -1,4 +1,4 @@
-# Modal Analysis on a Plate With Holes.
+# Modal Analysis on a Plate (with Holes).
 
 This analysis was also done to get used to the workflow of CalculiX and GMSH.
 
