@@ -1,4 +1,4 @@
-Merge "Kurbellwelle.stp";
+Merge "Crankshaft.stp";
 // Mesh control
 Mesh.ElementOrder=2;
 Mesh.Optimize=1;
