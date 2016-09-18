@@ -43,7 +43,6 @@ The things which are checked,
 | [Plasticity.STEP](Plasticity.STEP) | STEP geometry Imported from 3D Modeling Software |
 | [Plasticity.geo](Plasticity.geo) | Gmsh control file for meshing and model display |
 | [Plasticity.fbd](Plasticity.fbd) | CGX control file for preprocessing, solving and postprocessing |
-| [Transient.geo](Transient.geo)	|  Gmsh  control file for meshing and model display |
 | [Transient.fbd](Transient.fbd)	|  CGX   control file for preprocessing, solving and postprocessing |
 | [solve.inp](solve.inp) | CCX input file |
 | [solve1.inp](solve1.inp)	  |    CCX input file |
@@ -100,7 +99,7 @@ The things which are checked,
 
 -Photo(.geo file)
 ```
-> gmsh Transcient.geo
+> gmsh Plasticity.geo
 ```
 
 <img src="Refs/gmshVT1.png" width="400" title="Geo file">
@@ -121,15 +120,15 @@ Both this sets can be checked in CGX with command
 
 Displacement photo
 ```
-> cgx -b Plasticity.fbd
+> cgx -b Transient.fbd
 ```
 
 <img src="Refs/se1.png" width="400" title="Displacement">
 
 Solving
 ```
-> ccx solve
-> monitor.py solve
+> ccx solve1
+> monitor.py solve1
 ```
 <img src="Refs/solve1.png" width="400" title="Solve">
 
