@@ -8,6 +8,7 @@ This analysis was done to check the stress on the crankshaft.
 | :------- | :------------- |
 | [Cranshaft.stp](Crankshaft.stp) | STEP geometry Imported from 3D Modeling Software |
 | [Crankshaft.geo](Crankshaft.geo) | Gmsh control file for meshing and model display |
+| [Fine-Meshed Crankshaft.geo](Fine-Meshed Crankshaft.geo) | Gmsh control file for meshing and model display |
 | [Crankshaft.fbd](Crankshaft.fbd) | CGX control file for preprocessing, solving and postprocessing |
 | [solve.inp](solve.inp) | CCX input file |
 
@@ -78,14 +79,10 @@ In the photo below, we can see the sets which are defined in gmsh, in CGX
 
 * In the following images, i have showed, how the geometry looks after transfinite function is used for every surface
 
-| File     | Contents       |
-| :------- | :------------- |
-| [Kurbelwelle.stp](Kurbelwelle.stp) | STEP geometry Imported from 3D Modeling Software |
-| [Kurbelwelle.geo](Kurbelwelle.geo) | Gmsh control file for meshing and model display |
 
 Image of meshing
 ```
-> gmsh Kurbelwelle.geo
+> gmsh Fine-Meshed Crankshaft.geo
 ```
 <img src="Refs/gmsh.png" width="400" title="Mesh based on the original geometry">
 
