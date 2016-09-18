@@ -1,4 +1,4 @@
-# Thermal analysis on Heat sink(FIN)
+# Thermal Analysis on Heat Sink(FIN)
 
 A heat sink which is used in many application to reduce the heat of the system.
 So i have taken a Fin which is small in size, which is used, for example in laptops over the processor to reduce the heat in processors.
