@@ -21,7 +21,7 @@ Both this sets can be checked in CGX with command
 In the photo below, we can see the sets in CGX, which are defined in gmsh (.geo file)
 <img src="Refs/Sets-Plasticity.png" width="800" title="Set Definition">
 
-# Analysis
+# Analysis 1 (with Plasticity)
 
 A) Procedure to do the analysis
 
@@ -77,7 +77,8 @@ Solving
 > monitor.py solve
 ```
 <img src="Refs/solve.png" width="400" title="Displacement">
-# Buckling and transient analysis of Boiler Surface
+
+# Analysis 2 (without Plasticity)
 
 The things which are checked,
 
