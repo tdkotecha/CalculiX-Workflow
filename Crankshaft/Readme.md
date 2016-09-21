@@ -111,3 +111,6 @@ Image of meshing
 
 <img src="Refs/simple-crankshaft.png" width="400" title="no erros shown.">
 
+* In the second last image, it shows many errors even after meshing every surface with transfinite function and thats because of the complexity of the model
+
+* Whereas, in the last image it doesnt shows any error because of the simple geometry
