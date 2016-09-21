@@ -92,6 +92,16 @@ Image of meshing
 
 Using Transfinite function to do the meshing and then checking the surfaces, where negative elements are there, so that they can be meshed with more finer elements 
 
+* After this, I have taken a more simple geometry of crankshaft with less edges and small surfaceand tried to do its meshing with transfinite function. 
 
+* The result of this was that all the surface distortion we overcomed. It didnt showed any errors.
 
+* Which proved that simole geometry are easy to be meshed then the complex ones.
+
+Image of meshing
+```
+> gmsh simple-Crankshaft.geo
+```
+
+<img src="Refs/simple-Crankshaft.png" width="400" title="no erros shown.">
 
