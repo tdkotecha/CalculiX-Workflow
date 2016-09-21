@@ -1,5 +1,5 @@
 # CalculiX-Workflow
-CalculiX is a open-source analysis(FEA) Software. In this directory, I have tried to show the workflow in CalculiX. 
+CalculiX is a open-source analysis(FEA) software. In this directory, I have tried to show the workflow in CalculiX. 
 Basically I have shown how to import a CAD geometry from a 3D-Modelling Software, mesh the geometry in different meshing softwares like GMSH, Salome etc and then use them in CalculiX to do analysis on it. 
 
 In Workflow-PDF above, you can understand from very basic about CalculiX, For Example,
