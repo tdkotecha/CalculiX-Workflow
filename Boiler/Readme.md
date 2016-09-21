@@ -1,6 +1,7 @@
 # Buckling and Transient Analysis of Boiler Surface
 
-First I have shown workflow of CalculiX with Gmsh and then i have done the analysis
+1) First I have shown workflow of CalculiX with Gmsh.
+2) I have done two analysis on a same model, one with plasticity and other without plasticity. These two analysis has .Step and .geo files same, whereas .fbd file and solve.inp files are changed as per requierment. These analysis are shown as Analysis 1 and Analysis 2 below.
 
 * Set definition in Gmsh
 
@@ -21,7 +22,7 @@ Both this sets can be checked in CGX with command
 In the photo below, we can see the sets in CGX, which are defined in gmsh (.geo file)
 <img src="Refs/Sets-Plasticity.png" width="800" title="Set Definition">
 
-* Now I have done two analysis on a same model, one with plasticity and other without plasticity. These two analysis has .Step and .geo File same, whereas .fbd file and solve.inp files are changed as per requierment. The analysis are as follows,
+* Now I have done two analysis on a same model, one with plasticity and other without plasticity. These two analysis has .Step and .geo files same, whereas .fbd file and solve.inp files are changed as per requierment. The analysis are as follows,
 
 # Analysis 1 (with Plasticity)
 
