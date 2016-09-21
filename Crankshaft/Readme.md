@@ -105,5 +105,5 @@ Image of meshing
 > gmsh simple-Crankshaft.geo
 ```
 
-<img src="Refs/simple-Crankshaft.png" width="400" title="no erros shown.">
+<img src="Refs/simple-crankshaft.png" width="400" title="no erros shown.">
 
