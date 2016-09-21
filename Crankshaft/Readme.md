@@ -92,6 +92,8 @@ Image of meshing
 
 <img src="Refs/tranfinite2.png" width="400" title="Mesh based on the original geometry">
 
+<img src="Refs/crankshaft11.png" width="400" title="Mesh based on the original geometry">
+
 Using Transfinite function to do the meshing and then checking the surfaces, where negative elements are there, so that they can be meshed with more finer elements 
 
 # Comparison between simple Crankshaft and complex Crankshaft.
@@ -104,7 +106,7 @@ Using Transfinite function to do the meshing and then checking the surfaces, whe
 
 Image of meshing
 ```
-> gmsh simple-Crankshaft.geo
+> gmsh simple-crankshaft.geo
 ```
 
 <img src="Refs/simple-crankshaft.png" width="400" title="no erros shown.">
