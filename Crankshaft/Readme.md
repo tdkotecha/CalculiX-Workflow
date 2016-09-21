@@ -10,6 +10,8 @@ This analysis was done to check the stress on the crankshaft.
 | [Crankshaft.geo](Crankshaft.geo) | Gmsh control file for meshing and model display |
 | [Fine-Meshed Crankshaft.geo](Fine-Meshed Crankshaft.geo) | Gmsh control file for meshing and model display |
 | [Crankshaft.fbd](Crankshaft.fbd) | CGX control file for preprocessing, solving and postprocessing |
+| [simple-crankshaft.stp](simple-crankshaft.STEP) | STEP geometry Imported from 3D Modeling Software |
+| [simple-crankshaft.geo](simple-crankshaft.geo) | Gmsh control file for meshing and model display |
 | [solve.inp](solve.inp) | CCX input file |
 
 
