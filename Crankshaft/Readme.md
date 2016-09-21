@@ -29,7 +29,7 @@ Physical Surface definition
 
 * Boundary conditions
 
-The surface which is in contact with the bearing or the pulley with the belt, are fixed and Pressure is aplied, where the Crank rod is connected with the crank shaft i.e Rod journel portion.
+The surface which is in contact with the bearing or the pulley with the belt, are fixed and Pressure is applied, where the Crankrod is connected with the crankshaft i.e Rod journel portion.
 
 Photo
 
