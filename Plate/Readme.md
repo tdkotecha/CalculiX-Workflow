@@ -11,10 +11,10 @@ This analysis was also done to get used to the workflow of CalculiX and GMSH.
 
 -Boundry Conditions.
 
-The Outer round Surface(Width) is Fixed and pressure of 1N is aplied on the top surface of the plate.
-The photo of hcpy_1 shows the boundry condition.
+The Outer round Surface(Width) is fixed and pressure of 1N is applied on the top surface of the plate.
+The photo of hcpy_1 shows the boundary condition.
 
--Set Defination Photo
+-Set definition photo
 
 <img src="Refs/sets.png" width="400" title="Boundary conditions">
 
